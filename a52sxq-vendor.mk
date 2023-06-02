@@ -6,6 +6,12 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/a52sxq
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/hw/audio.primary.lahaina.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.lahaina.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/libspeakercalibration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeakercalibration.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/libdualcam_refocus_image.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcam_refocus_image.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/libdualcam_refocus_image.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcam_refocus_image.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/libhypermotion_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhypermotion_core.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/libhypermotion_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhypermotion_core.so \
     vendor/samsung/a52sxq/proprietary/vendor/etc/audconf/ODM/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/ODM/Bluetooth_cal.acdb \
     vendor/samsung/a52sxq/proprietary/vendor/etc/audconf/ODM/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/ODM/General_cal.acdb \
     vendor/samsung/a52sxq/proprietary/vendor/etc/audconf/ODM/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/ODM/Global_cal.acdb \
@@ -26,11 +32,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a52sxq/proprietary/vendor/etc/sensors/config/kodiak_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_lsm6dso_0.json \
     vendor/samsung/a52sxq/proprietary/vendor/etc/sensors/config/kodiak_stk31610_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_stk31610_0.json \
     vendor/samsung/a52sxq/proprietary/vendor/etc/sensors/config/lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6dso_0.json \
+    vendor/samsung/a52sxq/proprietary/vendor/etc/sensors/config/kodiak_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_ak991x_0.json \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/bt_nvm_loading.xml:$(TARGET_COPY_OUT_VENDOR)/firmware/bt_nvm_loading.xml \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/dax_param.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dax_param.bin \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/ois_mcu_stm32g_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_mcu_stm32g_fw.bin \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/qca6750/bdwlan.elf1:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6750/bdwlan.elf1 \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/qca6750/bdwlan.elf2:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6750/bdwlan.elf2 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/qca6750/bdwlan.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6750/bdwlan.elf \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/qca6750/bdwlan.elf10:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6750/bdwlan.elf10 \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/tsp_stm/fts5cu56a_a52sxq.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_stm/fts5cu56a_a52sxq.bin \
     vendor/samsung/a52sxq/proprietary/vendor/lib/camera/com.qti.eeprom.irs2381c_polar.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.irs2381c_polar.so \
     vendor/samsung/a52sxq/proprietary/vendor/lib/camera/com.qti.eeprom.n24s64b_imx616.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.n24s64b_imx616.so \
@@ -116,7 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a52sxq/proprietary/vendor/lib/camera/components/com.ss.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.ss.stats.awb.so \
     vendor/samsung/a52sxq/proprietary/vendor/lib/camera/components/com.ss.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.ss.stats.pdlib.so \
     vendor/samsung/a52sxq/proprietary/vendor/lib/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.qcom.so \
-    vendor/samsung/a52sxq/proprietary/vendor/lib/hw/camera.unihal.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.unihal.default.so \
     vendor/samsung/a52sxq/proprietary/vendor/lib/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qti.chi.override.so \
     vendor/samsung/a52sxq/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
     vendor/samsung/a52sxq/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
@@ -219,11 +227,143 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a52sxq/proprietary/vendor/lib64/camera/uw_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/uw_dual_calibration.bin \
     vendor/samsung/a52sxq/proprietary/vendor/lib64/camera/w_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/w_dual_calibration.bin \
     vendor/samsung/a52sxq/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
-    vendor/samsung/a52sxq/proprietary/vendor/lib64/hw/camera.unihal.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.unihal.default.so \
     vendor/samsung/a52sxq/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
     vendor/samsung/a52sxq/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
     vendor/samsung/a52sxq/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
     vendor/samsung/a52sxq/proprietary/vendor/lib64/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libegis_fp_normal_sensor_test.so \
     vendor/samsung/a52sxq/proprietary/vendor/lib64/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_in_system_lib.so \
     vendor/samsung/a52sxq/proprietary/vendor/lib64/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp_sensortest.so \
-    vendor/samsung/a52sxq/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b00 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b02 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wpss.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b03 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wpss.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b04 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wpss.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b05 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b06 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b07 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.mdt \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/yupik_ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b00 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/yupik_ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b02 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/yupik_ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b03 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/yupik_ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b04 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.elf \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.mdt \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/wpss.b00 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/wpss.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/wpss.b02 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/wpss.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/wpss.b03 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/wpss.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/wpss.b04 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/wpss.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/wpss.b05 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/wpss.b06 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/wpss.b07 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/wpss.mdt \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/yupik_ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/yupik_ipa_fws.b00 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/yupik_ipa_fws.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/yupik_ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/yupik_ipa_fws.b02 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/yupik_ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/yupik_ipa_fws.b03 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/yupik_ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/yupik_ipa_fws.b04 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/yupik_ipa_fws.elf \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/yupik_ipa_fws.mdt \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.b00 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.b02 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.b03 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.b04 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.b05 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.b06 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.b07 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.mdt \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/yupik_ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/yupik_ipa_fws.b00 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/yupik_ipa_fws.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/yupik_ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/yupik_ipa_fws.b02 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/yupik_ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/yupik_ipa_fws.b03 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/yupik_ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/yupik_ipa_fws.b04 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/yupik_ipa_fws.elf \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/yupik_ipa_fws.mdt \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/wpss.b00 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/wpss.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/wpss.b02 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/wpss.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/wpss.b03 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/wpss.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/wpss.b04 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/wpss.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/wpss.b05 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/wpss.b06 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/wpss.b07 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/wpss.mdt \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/yupik_ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/yupik_ipa_fws.b00 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/yupik_ipa_fws.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/yupik_ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/yupik_ipa_fws.b02 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/yupik_ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/yupik_ipa_fws.b03 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/yupik_ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/yupik_ipa_fws.b04 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/yupik_ipa_fws.elf \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/yupik_ipa_fws.mdt \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/wpss.b00 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/wpss.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/wpss.b02 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/wpss.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/wpss.b03 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/wpss.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/wpss.b04 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/wpss.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/wpss.b05 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/wpss.b06 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/wpss.b07 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/wpss.mdt \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/yupik_ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/yupik_ipa_fws.b00 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/yupik_ipa_fws.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/yupik_ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/yupik_ipa_fws.b02 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/yupik_ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/yupik_ipa_fws.b03 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/yupik_ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/yupik_ipa_fws.b04 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/yupik_ipa_fws.elf \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/yupik_ipa_fws.mdt \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.gs.kodiak.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.gs.kodiak.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.gs.kodiak.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.gs.kodiak.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.rt.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.rt.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.rt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.rt.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.anchorsync.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.anchorsync.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.demux.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.demux.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.derivedoffline.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.derivedoffline.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.frameselect.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.frameselect.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.fusion.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.generic.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.generic.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.gs.sm8350.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.gs.sm8350.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.hdr.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.mcreprocrt.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.mcreprocrt.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.memcpy.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.mfsr.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.mfsr.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.ml.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.ml.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.mux.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.mux.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.qcfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.qcfa.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.rawhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.rawhdr.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.realtimeserializer.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.realtimeserializer.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.rtmcx.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.rtmcx.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.serializer.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.serializer.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.statsregeneration.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.statsregeneration.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.stub.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/com.qti.feature2.swmf.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qti.feature2.swmf.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.anchorsync.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.anchorsync.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.demux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.demux.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.derivedoffline.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.derivedoffline.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.frameselect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.frameselect.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.fusion.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.generic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.generic.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.gs.sm8350.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.gs.sm8350.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.hdr.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.mcreprocrt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.mcreprocrt.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.memcpy.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.mfsr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.mfsr.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.ml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.ml.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.mux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.mux.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.qcfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.qcfa.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.rawhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.rawhdr.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.realtimeserializer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.realtimeserializer.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.rtmcx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.rtmcx.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.serializer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.serializer.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.statsregeneration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.statsregeneration.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.stub.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/com.qti.feature2.swmf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.swmf.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/libsec2qc_conversion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec2qc_conversion.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/libsec2qc_conversion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec2qc_conversion.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.grip.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.grip.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
+    vendor/samsung/a52sxq/proprietary/vendor/lib64/libdualcam_refocus_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcam_refocus_video.so

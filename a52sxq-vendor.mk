@@ -250,22 +250,38 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/yupik_ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b04 \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.elf \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.mdt \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/wpss.b00 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/wpss.b01 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/wpss.b02 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/wpss.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/wpss.b03 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/wpss.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/wpss.b04 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/wpss.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/wpss.b05 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/wpss.b06 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/wpss.b07 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/wpss.mdt \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/yupik_ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/yupik_ipa_fws.b00 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/yupik_ipa_fws.b01 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/yupik_ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/yupik_ipa_fws.b02 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/yupik_ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/yupik_ipa_fws.b03 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/yupik_ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/yupik_ipa_fws.b04 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/yupik_ipa_fws.elf \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev1/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev1/yupik_ipa_fws.mdt \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/wpss.b00 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/wpss.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/wpss.b02 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/wpss.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/wpss.b03 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/wpss.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/wpss.b04 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/wpss.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/wpss.b05 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/wpss.b06 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/wpss.b07 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/wpss.mdt \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/yupik_ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/yupik_ipa_fws.b00 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/yupik_ipa_fws.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/yupik_ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/yupik_ipa_fws.b02 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/yupik_ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/yupik_ipa_fws.b03 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/yupik_ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/yupik_ipa_fws.b04 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/yupik_ipa_fws.elf \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/yupik_ipa_fws.mdt \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/wpss.b00 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/wpss.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/wpss.b02 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/wpss.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/wpss.b03 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/wpss.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/wpss.b04 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/wpss.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/wpss.b05 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/wpss.b06 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/wpss.b07 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/wpss.mdt \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/yupik_ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/yupik_ipa_fws.b00 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/yupik_ipa_fws.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/yupik_ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/yupik_ipa_fws.b02 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/yupik_ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/yupik_ipa_fws.b03 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/yupik_ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/yupik_ipa_fws.b04 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/yupik_ipa_fws.elf \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/yupik_ipa_fws.mdt \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.b00 \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.b01 \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.b02 \

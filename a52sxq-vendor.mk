@@ -29,56 +29,38 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a52sxq/proprietary/vendor/etc/sensors/config/lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6dso_0.json \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/bt_nvm_loading.xml:$(TARGET_COPY_OUT_VENDOR)/firmware/bt_nvm_loading.xml \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/dax_param.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dax_param.bin \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.b00 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.b01 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.b02 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.b03 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.b04 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.b05 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.b06 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.b07 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/wpss.mdt \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/yupik_ipa_fws.b01 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/yupik_ipa_fws.elf \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev2/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev2/yupik_ipa_fws.mdt \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/wpss.b01 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/wpss.mdt \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/yupik_ipa_fws.b01 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/yupik_ipa_fws.elf \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev3/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev3/yupik_ipa_fws.mdt \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/wpss.b00 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/wpss.b01 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/wpss.b01 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/wpss.b02 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/wpss.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/wpss.b03 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/wpss.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/wpss.b04 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/wpss.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/wpss.b05 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/wpss.b06 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/wpss.b07 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/wpss.mdt \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/wpss.mdt \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/yupik_ipa_fws.b01 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/yupik_ipa_fws.b01 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/yupik_ipa_fws.elf \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/yupik_ipa_fws.elf \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/yupik_ipa_fws.mdt \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528b/rev4/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528b/rev4/yupik_ipa_fws.mdt \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/wpss.b01 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/wpss.mdt \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/yupik_ipa_fws.b01 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/yupik_ipa_fws.elf \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev1/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev1/yupik_ipa_fws.mdt \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/wpss.b01 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/wpss.mdt \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/yupik_ipa_fws.b01 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/yupik_ipa_fws.elf \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/ipa/a528n/rev2/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa/a528n/rev2/yupik_ipa_fws.mdt \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/ois_mcu_stm32g_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_mcu_stm32g_fw.bin \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/qca6750/bdwlan.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6750/bdwlan.elf \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/qca6750/bdwlan.elf1:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6750/bdwlan.elf1 \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/qca6750/bdwlan.elf10:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6750/bdwlan.elf10 \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/qca6750/bdwlan.elf2:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6750/bdwlan.elf2 \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/tsp_stm/fts5cu56a_a52sxq.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_stm/fts5cu56a_a52sxq.bin \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev2/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev2/wpss.b00 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev2/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev2/wpss.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev2/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev2/wpss.b02 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev2/wpss.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev2/wpss.b03 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev2/wpss.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev2/wpss.b04 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev2/wpss.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev2/wpss.b05 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev2/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev2/wpss.b06 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev2/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev2/wpss.b07 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev2/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev2/wpss.mdt \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev3/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev3/wpss.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev3/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev3/wpss.mdt \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev4/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev4/wpss.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev4/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev4/wpss.mdt \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev5/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev5/wpss.b00 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev5/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev5/wpss.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev5/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev5/wpss.b02 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev5/wpss.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev5/wpss.b03 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev5/wpss.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev5/wpss.b04 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev5/wpss.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev5/wpss.b05 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev5/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev5/wpss.b06 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev5/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev5/wpss.b07 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528b/rev5/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528b/rev5/wpss.mdt \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528n/rev1/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528n/rev1/wpss.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528n/rev1/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528n/rev1/wpss.mdt \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528n/rev2/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528n/rev2/wpss.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528n/rev2/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528n/rev2/wpss.mdt \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b00 \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b01 \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b02 \
@@ -88,13 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b06 \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b07 \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.mdt \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/yupik_ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b00 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b01 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/yupik_ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b02 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/yupik_ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b03 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/yupik_ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b04 \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.elf \
-    vendor/samsung/a52sxq/proprietary/vendor/firmware/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.mdt \
     vendor/samsung/a52sxq/proprietary/vendor/lib/camera/com.qti.eeprom.irs2381c_polar.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.irs2381c_polar.so \
     vendor/samsung/a52sxq/proprietary/vendor/lib/camera/com.qti.eeprom.n24s64b_imx616.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.n24s64b_imx616.so \
     vendor/samsung/a52sxq/proprietary/vendor/lib/camera/com.qti.eeprom.sec2qcconversion.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.sec2qcconversion.so \

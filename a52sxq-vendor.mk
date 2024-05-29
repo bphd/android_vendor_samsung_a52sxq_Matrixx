@@ -88,6 +88,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528n/rev3/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528n/rev3/wpss.b06 \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528n/rev3/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528n/rev3/wpss.b07 \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528n/rev3/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528n/rev3/wpss.mdt \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528n/rev4/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528n/rev4/wpss.b00 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528n/rev4/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528n/rev4/wpss.b01 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528n/rev4/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528n/rev4/wpss.b02 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528n/rev4/wpss.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528n/rev4/wpss.b03 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528n/rev4/wpss.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528n/rev4/wpss.b04 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528n/rev4/wpss.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528n/rev4/wpss.b05 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528n/rev4/wpss.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528n/rev4/wpss.b06 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528n/rev4/wpss.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528n/rev4/wpss.b07 \
+    vendor/samsung/a52sxq/proprietary/vendor/firmware/wlan/a528n/rev4/wpss.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/a528n/rev4/wpss.mdt \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/wpss.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b00 \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/wpss.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b01 \
     vendor/samsung/a52sxq/proprietary/vendor/firmware/wpss.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/wpss.b02 \
